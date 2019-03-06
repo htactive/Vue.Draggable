@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-8">
       <h3>Nested draggable</h3>
-      <nested-draggable :tasks="list" />
+      <nested-draggable :tasks="list" :level="1"/>
     </div>
 
     <rawDisplayer class="col-3" :value="list" title="List" />
